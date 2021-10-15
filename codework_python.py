@@ -32,10 +32,17 @@ import random
 # from sklearn.metrics import confusion_matrix
 
 # environment info
+print("Environment Info:")
+print("-----------------")
+print("Python version:      ",
+      f"{sys.version_info[0]}.{sys.version_info[1]}.{sys.version_info[2]}-{sys.version_info[3]}")
+print("Numpy Version:       ", np.__version__)
+print("Pandas Version:      ", pd.__version__)
+# print("OpenCV Version:      ", cv2.__version__)
+# print("Tesseract Version:   ", pytesseract.get_tesseract_version().vstring.split("\r\n ")[0])
+# print("PyTesseract Version: ", pytesseract.__version__)
+# print("Seaborn Version:     ", sns.__version__)
 # print("PyTorch Version: ", torch.__version__)
-print("Numpy Version: ", np.__version__)
-print("Pandas Version: ", pd.__version__)
-print("Seaborn Version: ", sns.__version__)
 print()
 
 # DO NOT FORGET TO SET THE CONSOLE WORKING DIRECTORY IN SPYDER!!!
