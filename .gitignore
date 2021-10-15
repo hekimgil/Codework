@@ -112,3 +112,20 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# my regular stuff...
+.data/
+.idea/
+.pylint.d/
+__pycache__/
+env_codework/
+data/
+reports/~*
+outputs/
+process/
+papers/books/*
+papers/~*
+*.Rhistory
+~*
+models/
+checkpoints/
